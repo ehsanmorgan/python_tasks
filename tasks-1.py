@@ -1,9 +1,11 @@
 
 def mul(x,y,z,r):
       for m in range (x,y):
-            print('--------------')
+            print('-------------------------------')
+            
             for s in range(z,r):
                   print (f'{m}X{s}={m*s}')
+                  print('--------------')
                   
                  
                   
